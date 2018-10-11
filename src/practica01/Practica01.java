@@ -9,7 +9,8 @@ public class Practica01 {
 
     
     public static void main(String[] args) {
-        // TODO code application logic here
+       new NewThread().start();
+        System.out.println("Termina clase main");
     }
 
 }
